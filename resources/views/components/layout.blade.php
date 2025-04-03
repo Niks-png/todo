@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ asset("style.css") }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{ $title ?? "Uzdevumi un dienasgrāmata" }}</title>
 </head>
+
 <body>
+
 <x-navigation></x-navigation>
-    <h1>hello, Laravel!</h1> 
+{{ $slot }}
 </body>
 </html>

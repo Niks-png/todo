@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+<x-navigation></x-navigation>
 <p>Mūsdienu straujajā dzīves ritmā efektīva laika plānošana un uzdevumu pārvaldība ir kļuvusi par būtisku ikdienas sastāvdaļu. Darāmo darbu saraksta vietne piedāvā strukturētu pieeju, kas palīdz lietotājiem organizēt savus pienākumus un sasniegt mērķus</p> 
 <h1>Kāpēc darāmo darbu saraksts ir nepieciešams ikvienam?</h1> 
     <h1>Uzdevumu organizēšana un prioritizēšana</h1> 
