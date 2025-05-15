@@ -9,12 +9,20 @@
 <header>
 <nav>
     <ul>
-        <li><a href="/">Sākums</a></li>
+    @auth
+
         <li><a href="/todos">Visi uzdevumi</a></li>
         <li><a href="/why">why</a></li>
         <li><a href="/diaries">diaries</a></li>
-        <li><a href="/todos/create">create</a></li>
+        <li><a href="/todos/create">create uzdevumu</a></li>
         <li><a href="/diaries/create">diaries create</a></li>
+        @endauth
+        @guest
+        <li><a href="/login" wire:navigate>login</a></li>
+
+        <li><a href="/register" wire:navigate>register</a></li>
+        @endguest
+        <li><a href="/">Sākums</a></li>
     </ul>
 </nav>
 </header>
